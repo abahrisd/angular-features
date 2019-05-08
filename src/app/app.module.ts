@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NumsShowerComponent } from './components/nums-shower/nums-shower.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumsShowerComponent
   ],
   imports: [
     BrowserModule,
